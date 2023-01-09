@@ -1,0 +1,22 @@
+{
+  "name": "quote_generator",
+  "version": "1.0.0",
+  "description": "This is a node js application for generating my Graphic Side Hustle's quotations.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Chiloane",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "date-and-time": "^2.4.1",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "pdfkit": "^0.13.0",
+    "sequelize": "^6.28.0"
+  }
+}
